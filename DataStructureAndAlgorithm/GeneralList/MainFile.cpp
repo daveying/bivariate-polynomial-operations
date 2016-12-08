@@ -1,4 +1,7 @@
+#include "MonadicPolynomial.h"
+#include "MonadicPolynomialNode.h"
 #include "BivariatePolynomial.h"
+#include "BivariatePolynomialNode.h"
 #include <iostream>
 using namespace std;
 

@@ -15,15 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="PolynomialNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MonadicPolynomial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MonadicPolynomialNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BivariatePolynomialNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="BivariatePolynomial.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BivariatePolynomial.cpp">
+    <ClCompile Include="MainFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MainFile.cpp">
+    <ClCompile Include="MonadicPolynomial.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

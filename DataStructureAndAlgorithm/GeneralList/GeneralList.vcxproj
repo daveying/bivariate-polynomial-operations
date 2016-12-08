@@ -111,9 +111,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BivariatePolynomial.h" />
+    <ClInclude Include="BivariatePolynomialNode.h" />
+    <ClInclude Include="MonadicPolynomial.h" />
+    <ClInclude Include="MonadicPolynomialNode.h" />
+    <ClInclude Include="PolynomialNode.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BivariatePolynomial.cpp" />
+    <ClCompile Include="MonadicPolynomial.cpp" />
     <ClCompile Include="MainFile.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
