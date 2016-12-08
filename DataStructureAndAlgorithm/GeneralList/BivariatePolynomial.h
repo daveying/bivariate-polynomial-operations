@@ -24,9 +24,9 @@ private:
 class MonadicPolynomial
 {
 public:
-	MonadicPolynomial() :monadicPolynomail_(0) { variableName_ = "y"; };
+	MonadicPolynomial() :monadicPolynomail_(0) { variableName_ = "x"; };
 	MonadicPolynomial(string variableName) :monadicPolynomail_(0), variableName_(variableName) {}
-	MonadicPolynomial(vector<MonadicPolynomialNode> nodes, string name = "y");
+	MonadicPolynomial(vector<MonadicPolynomialNode> nodes, string name = "x");
 	MonadicPolynomial(const MonadicPolynomial &another);
 	~MonadicPolynomial();
 	void SetVariableName(string name) { this->variableName_ = name; }

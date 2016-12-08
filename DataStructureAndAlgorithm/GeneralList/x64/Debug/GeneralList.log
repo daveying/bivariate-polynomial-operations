@@ -1,3 +1,10 @@
-﻿  MainFile.cpp
-  GeneralList.vcxproj -> D:\VSProject\C++\DataStructureAndAlgorithm\x64\Debug\GeneralList.exe
-  GeneralList.vcxproj -> D:\VSProject\C++\DataStructureAndAlgorithm\x64\Debug\GeneralList.pdb (Partial PDB)
+﻿  BivariatePolynomial.cpp
+d:\github\bivariate-polynomial-operations\datastructureandalgorithm\generallist\bivariatepolynomial.cpp(151): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+d:\github\bivariate-polynomial-operations\datastructureandalgorithm\generallist\bivariatepolynomial.cpp(325): warning C4715: 'MonadicPolynomialNode::Compare': not all control paths return a value
+d:\github\bivariate-polynomial-operations\datastructureandalgorithm\generallist\bivariatepolynomial.cpp(365): warning C4715: 'BivariatePolynomialNode::Compare': not all control paths return a value
+  Compiling...
+  MainFile.cpp
+  Generating Code...
+  GeneralList.vcxproj -> D:\GitHub\bivariate-polynomial-operations\DataStructureAndAlgorithm\x64\Debug\GeneralList.exe
+  GeneralList.vcxproj -> D:\GitHub\bivariate-polynomial-operations\DataStructureAndAlgorithm\x64\Debug\GeneralList.pdb (Partial PDB)
