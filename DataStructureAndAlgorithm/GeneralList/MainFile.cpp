@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-	//this
 	MonadicPolynomialNode n1(3, 5);
 	MonadicPolynomialNode n2(4, 4);
 	MonadicPolynomialNode n3(-1, 3);
