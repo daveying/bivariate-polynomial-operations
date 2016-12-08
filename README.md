@@ -3,6 +3,7 @@
 The code is developing under VS2015.
 
 DataStructureAndAlgorithm --> Solution name
+
 DataStructureAndAlgorithm/GeneralList  --> project name
 
 Source files are in DataStructureAndAlgorithm/GeneralList
