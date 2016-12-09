@@ -6,7 +6,6 @@
 #include "MonadicPolynomialNode.h"
 using namespace std;
 
-//########################## MonadicPolynomial #####################//
 
 void MonadicPolynomial::Inverse()
 {
@@ -178,7 +177,7 @@ MonadicPolynomial::MonadicPolynomial(vector<MonadicPolynomialNode> nodes, string
 			MonadicPolynomialNode *temp = ptr2;
 			ptr->next = temp->next;
 			ptr->coefficient += temp->coefficient;	//merge two items
-			ptr2 = temp->next;							//ptr2 move a step back, while ptr shouldn't move, because there maybe three or more items have same order
+			ptr2 = temp->next;						//ptr2 move a step back, while ptr shouldn't move, because there maybe three or more items have same order
 			delete temp;
 		}
 		else				//if *ptr not equal to *ptr2, then there is no more node equal to *ptr at back, because these nodes are sorted.
@@ -191,7 +190,7 @@ MonadicPolynomial::MonadicPolynomial(vector<MonadicPolynomialNode> nodes, string
 
 MonadicPolynomial::MonadicPolynomial(const MonadicPolynomial &another)
 {
-	if (another.monadicPolynomial_ == 0)
+	if (another.monadicPolynomial_ == 0) //if the monadic polynomial is empty, then just return.
 	{
 		this->monadicPolynomial_ = 0;
 		this->variableName_ = another.variableName_;
@@ -202,7 +201,7 @@ MonadicPolynomial::MonadicPolynomial(const MonadicPolynomial &another)
 	head = new MonadicPolynomialNode(ptr->coefficient, ptr->order);
 	ptr = ptr->next;
 	thisPtr = head;
-	while (ptr != 0)
+	while (ptr != 0) //copy all nodes from another in this loop
 	{
 		thisPtr->next = new MonadicPolynomialNode(ptr->coefficient, ptr->order);
 		ptr = ptr->next;
